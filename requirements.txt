@@ -1,0 +1,15 @@
+# Core data analytics stack for DATA-VS-BIAS
+# Pin versions once environment is confirmed working; left unpinned for now.
+
+pandas
+numpy
+matplotlib
+seaborn
+jupyter
+requests
+beautifulsoup4
+scikit-learn
+
+# Add here as the project actually needs them (e.g. plotly, statsmodels for
+# regression diagnostics, streamlit for a dashboard). Don't pre-install
+# things we haven't used yet.
