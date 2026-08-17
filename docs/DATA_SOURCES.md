@@ -26,9 +26,7 @@ of the data used in the analysis and prediction models.
 
 **Competition:** Premier League
 
-**Purpose:**
-
-FBref is the primary historical data source for this project. It provides
+**Purpose:** FBref is the primary historical data source for this project. It provides
 team-level Premier League performance statistics including league standings,
 results, goals, shooting, goalkeeping and other performance metrics.
 
