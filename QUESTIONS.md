@@ -1,45 +1,34 @@
-# DATA vs. BIAS
+# Research Questions
 
-**Central question:** Can historical and current football data be used to estimate Manchester United's probability of winning the 2026/27 Premier League?
+## Primary Question
 
-This is a data analytics portfolio project. It is also a personal experiment: I am a Manchester United fan building a model that is allowed to disagree with me. See `PROJECT_CONSTITUTION.md` for the rules that govern that tension.
+Can historical Premier League performance data be used to estimate
+Manchester United's probability of winning the 2026/27 Premier League?
 
-## Status
+## Historical Questions
 
-Setup stage. No analysis has been run yet. No data has been collected yet. Anything beyond folder structure and documentation in this repo has not happened — check `PROJECT_LOG.md` for the actual session-by-session record before assuming otherwise.
+1. How many points have Premier League champions achieved historically?
+2. What points-per-game do champions typically achieve?
+3. How many wins, draws and losses do champions typically have?
+4. How many goals do champions score?
+5. How many goals do champions concede?
+6. What goal difference do champions typically have?
+7. How important is home performance?
+8. How important is away performance?
+9. What statistical characteristics consistently distinguish champions
+   from the rest of the league?
 
-## Structure
+## Manchester United Questions
 
-```
-DATA-VS-BIAS/
-    data/
-        raw/          # untouched source data, exactly as downloaded
-        cleaned/       # cleaned but not yet feature-engineered
-        processed/     # analysis-ready tables
-    notebooks/         # exploratory Jupyter notebooks
-    src/                # reusable Python modules (scraping, cleaning, modelling)
-    dashboards/         # any dashboard code/exports
-    visuals/            # exported charts/figures
-    content/            # platform-specific drafts for publishing project updates
-        youtube/
-        tiktok/
-        instagram/
-        linkedin/
-        x/
-        facebook/
-    docs/               # supplementary write-ups, methodology notes
-    README.md
-    PROJECT_CONSTITUTION.md   # philosophy, principles, anti-bias rules
-    PROJECT_LOG.md             # running journal of actual work done
-    QUESTIONS.md                # research question backlog
-    requirements.txt
-    .gitignore
-```
+10. How did Manchester United perform in 2025/26?
+11. How does United's 2025/26 profile compare with historical champions?
+12. Which areas of United's performance most closely resemble champions?
+13. Which areas differ most significantly?
 
-## Milestone 1 (current)
+## Prediction Questions
 
-Analyse ~10-15 previous Premier League seasons and establish the statistical profile of a champion: points, PPG, W/D/L, goals scored/conceded, goal difference, home vs. away split. No modelling until this baseline exists.
-
-## Principles (short version)
-
-If the model says Manchester United are unlikely to win the league, that result gets published, not adjusted. Full reasoning in `PROJECT_CONSTITUTION.md`.
+14. Can historical performance help estimate expected points?
+15. How should team strength be estimated?
+16. How should fixture difficulty be incorporated?
+17. How should home advantage be incorporated?
+18. How sensitive is United's title probability to changes in team strength?
